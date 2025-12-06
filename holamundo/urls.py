@@ -8,5 +8,6 @@ urlpatterns = [
     path('saludo/', views.saludo, name='saludo'),
     path('despedida/', views.despedida, name='despedida'),
 
-    
+    #rutas con parametros
+    path('adulto/<int:edad>/', views.adulto, name='adulto'),
 ]
